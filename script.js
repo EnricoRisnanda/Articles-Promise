@@ -1,22 +1,3 @@
-// $('.search-button').on('click', function (){
-//     $.ajax({
-//         url : 'https://newsapi.org/v2/everything?from=2022-11-05&sortBy=publishedAt&apiKey=3119f3b1832345caa63d75de1eb4cf13&q=' + $('.input-keyword').val(),
-//         success: result => {
-//             console.log(result);
-//             const berita = result.articles;
-//             let cards = '';
-//             berita.forEach(b => {
-//                 cards += showCards(b);
-    
-//             });
-//             $('.berita-container').html(cards);
-//         },
-//         error: (e) => {
-//             console.log(e.responseText);
-//         }
-//     });
-// });
-
 const searchButton = document.querySelector('.search-button');
 searchButton.addEventListener('click', function(){
 
